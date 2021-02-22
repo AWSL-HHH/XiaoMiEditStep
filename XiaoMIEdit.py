@@ -157,7 +157,7 @@ if __name__ == "__main__":
     while fail_num > 0:
         try:
             # 执行一键修改步数
-            XiaomiSport( id , key , random.randint(12000,25000)).one_click_change_step()
+            XiaomiSport( id , key , random.randint(10000,20000)).one_click_change_step()
             break
         except Exception as e:
             print('运行出错，原因：%s' % e)
